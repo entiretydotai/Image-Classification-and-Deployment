@@ -6,6 +6,22 @@ The directory is defined as
 
 ![](dir_struct.png)
 
+
+
+## Setting up the Environment
+
+To setup the environment 
+```bash
+python3 -m pip install -U virtualenv # install the virtualenv
+virtualenv -p python3 dev_env # creating an environment
+source dev_env/bin/activate # activate environment
+git clone https://github.com/entiretydotai/Image-Classification-and-Deployment #clone the repo
+cd Image-Classification-and-Deployment
+pip install -r requirements.txt # install the requirements
+```
+
+
+
 ## For Training
 
 [Run Training Notebook file](TrainingNotebook.ipynb)
@@ -22,6 +38,7 @@ python generate_valid_data.py
 ```
 
 Run [Inference Notebook file](InferenceNotebook.ipynb)
+
 
 
 
